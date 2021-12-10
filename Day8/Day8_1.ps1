@@ -1,4 +1,3 @@
-
 $in = Get-Content .\Day8_input.txt | ForEach-Object { (($_.split("|")[1]).trim()).split(" ") }
 $count = 0
 $in | ForEach-Object {
